@@ -1,0 +1,21 @@
+@import url('http://fonts.cdnfonts.com/css/dimitri');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-link {
+    @apply hover:text-yellow-500 transition duration-300 ease-out cursor-pointer;
+}
+
+.section {
+    @apply px-5 py-2 md:py-10;
+}
+
+.section-title {
+    @apply text-4xl md:text-6xl underline font-dimitri mb-5 md:mb-10;
+}
+
+.card {
+    @apply mb-6 rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition duration-300 ease-out;
+}
